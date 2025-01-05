@@ -2,10 +2,9 @@ import java.util.Scanner;
 
 public interface Ipod {
     Scanner sc = new Scanner(System.in);
-    String nomeMusica = sc.next();
 
     public static void tocar(){
-        System.out.println("Tocando a música " + nomeMusica);
+        System.out.println("Tocando a música");
     }
 
     public static void pausar(){
